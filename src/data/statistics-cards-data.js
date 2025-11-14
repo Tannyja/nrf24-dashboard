@@ -1,14 +1,7 @@
-import {
-  BanknotesIcon,
-  UserPlusIcon,
-  UsersIcon,
-  ChartBarIcon,
-} from "@heroicons/react/24/solid";
-
 export const statisticsCardsData = [
   {
-    color: "gray",
-    icon: BanknotesIcon,
+    color: "blue",
+    icon: "currency-dollar",
     title: "Today's Money",
     value: "$53k",
     footer: {
@@ -18,8 +11,8 @@ export const statisticsCardsData = [
     },
   },
   {
-    color: "gray",
-    icon: UsersIcon,
+    color: "pink",
+    icon: "user-group",
     title: "Today's Users",
     value: "2,300",
     footer: {
@@ -29,8 +22,8 @@ export const statisticsCardsData = [
     },
   },
   {
-    color: "gray",
-    icon: UserPlusIcon,
+    color: "green",
+    icon: "user-plus",
     title: "New Clients",
     value: "3,462",
     footer: {
@@ -40,8 +33,8 @@ export const statisticsCardsData = [
     },
   },
   {
-    color: "gray",
-    icon: ChartBarIcon,
+    color: "orange",
+    icon: "chart-bar",
     title: "Sales",
     value: "$103,430",
     footer: {
@@ -51,5 +44,3 @@ export const statisticsCardsData = [
     },
   },
 ];
-
-export default statisticsCardsData;
